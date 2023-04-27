@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Elijah Roberts Portfolio Site | Masters Mechanical and Aerospace Engineering, Specialty CAD/CAM, Interested in Additive Manufacturing</title>
-        <meta name="description" content="Elijah Roberts is Mechanical Engineer who just finished his Masters at Illinois Institute of Tehcnology in Chicago. He is interesed in the additive manufacturing field to further pursue his passion for 3D printing.">
+        <meta name="description" content="Elijah Roberts is a Mechanical Engineer who just finished his Masters at Illinois Institute of Tehcnology in Chicago. He is interesed in the additive manufacturing field to further pursue his passion for 3D printing.">
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/portfolio favicon.png" />
         <!-- Bootstrap Icons-->
@@ -78,44 +78,6 @@
             </div>
         </section>
 
-        <!-- Services-->
-        <!-- <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- Portfolio-->
         <div id="portfolio">
             <div class="container-fluid p-0">
@@ -131,7 +93,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="#telescopingpole" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/telescopingpole/assem-thumb.png" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">CAD | Parameter Driven</div>
                                 <div class="project-name">Telescoping Pole</div>
@@ -250,14 +212,36 @@
                         <h2 class="mb-4">Telescoping Pole</h2>
                     </summary>
                     <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">My name is Elijah Roberts! <br> <br>
-                            I've just graduated with my master's degree in mechanical and aerospace engineering from Illinois Institute of Technology in Chicago. <br><br>
-                            In this last academic year I got the opertunity to co-author a research paper where I did stereological analysis on binderjet 3D printed stainless steel parts. I enjoyed being able to expand my skills into the world of material science and look forward to its publication! <br><br> 
-                            Some of my favorite skills include, CAD, finite element analysis, stereological analysis, 3D printing, laser cutting and python for all your programming needs.<br><br>
-                            I have a passion for designing and creating just about anything and would consider myself a maker at heart. Within my graduate education I specialzed in CAD-CAM and love using my skills to create inventions to feed my 3D printing addiction. <br><br>
-                            On any given day you can catch me rock climbing, playing board games and troubleshooting 3D printing projects! Check out the porfolio below to see what I've been working on <(˶ᵔ ᵕ ᵔ˶ )>
-                            <br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br>
+                        <p class="text-white-75 mb-4">In this project I worked in a team of 4 to develop a telescoping pole with 
+                            interchangable heads for disk golf retreival. My job was to develop the CAD model of the telescoping 
+                            arm for use in finite element analysis. <br> <br>
+                            I knew that we would be adjusting the design based on the FEA results. With that in mind I knew I wanted 
+                            a CAD model that allowed for easy and quick adjustment for iterative FEA testing. To acheive this I designed 
+                            the whole assembly to be fully parameter driven. Major design variable are carried from the core pole section 
+                            to all five larger sections.
+
                         </p>
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/core.png" alt="..." />
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/core-params.PNG" alt="..." /> <br> <br>
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/section1.png" alt="..." />
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/section1-params.PNG" alt="..." />
+                        <p class="text-white-75 mb-4"> <br> Using the parameter function in Autodesk Inventor, I developed the parts to be 
+                            interdependent and based off the parent core section. The most important of the design variables are the thickness 
+                            and length of the sections. <br> <br>
+                            The full assembly is contructed of a core section that has a securing outward lip at the back and the threaded 
+                            mounting hole at the front. There are then four identical middle sections with both outward and inward faceing lips 
+                            on respective ends. The final sixth end section only has an inward securing lip and a hollow back. A simple 
+                            plastic end cap is placed at the end to enclose the assembly. to allow for the adjustment of all sections 
+                            independently there are five clamps a apprpriate size for each inner section. 
+
+                        </p>
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/assembly.png" alt="..." />
+                        <img class="img-thumbnail-2x" src="assets/img/telescopingpole/assem-extended.png" alt="..." /> <br> <br>
+                        <img class="img-thumbnail-1x" src="assets/img/telescopingpole/assem-extended-big.png" alt="..." />
+                        <p class="text-white-75 mb-4"> <br> The parameter driven assembly allowd for extremely simple design adjustments. The above images are of the assembly with the optimized thickness of 1/32in. The collapsed length ~3ft and the extende length is ~14.5ft.
+
+                        </p>
+                        
                 </details>
             </div>
         </section>
