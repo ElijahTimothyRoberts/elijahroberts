@@ -10897,12 +10897,12 @@ body {
 }
 
 .page-section-image-dark-homebeam {
-  background: linear-gradient(to bottom, rgba(33, 37, 41, 0.8) 0%, rgba(33, 37, 41, 0.8) 100%), url("../assets/img/3dchess/black-wide-crop.jpg"); 
+  background: linear-gradient(to bottom, rgba(33, 37, 41, 0.8) 0%, rgba(33, 37, 41, 0.8) 100%), url("../assets/img/homebeam/background.jpg"); 
   padding: 8rem 0;
 }
 
 .page-section-image-primary-misc {
-  background: linear-gradient(to bottom, rgba(62, 143, 41, 0.8) 0%, rgba(62, 143, 41, 0.8) 100%), url("../assets/img/telescopingpole/background3crop.png"); 
+  background: linear-gradient(to bottom, rgba(62, 143, 41, 0.8) 0%, rgba(62, 143, 41, 0.8) 100%), url("../assets/img/misc/thumb.jpg"); 
   padding: 8rem 0;
 }
 
